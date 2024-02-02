@@ -1,11 +1,8 @@
 {
   "emmet.syntaxProfiles": {
-    "javascript": "jsx"
+    "javascript": "jsx",
+    "csharp": "cs"
   },
-  "workbench.colorTheme": "Omni",
-  "workbench.productIconTheme": "fluent-icons",
-  "window.zoomLevel": 1,
-  "workbench.iconTheme": "icons",
   "workbench.startupEditor": "newUntitledFile",
   "editor.fontSize": 16,
   "javascript.suggest.autoImports": true,
@@ -33,7 +30,15 @@
   "explorer.confirmDelete": false,
   "terminal.integrated.showExitAlert": false,
   "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma",
     "editor.formatOnSave": true
+  },
+  "[java]": {
+    "editor.defaultFormatter": "mwpb.java-prettier-formatter",
+    "editor.formatOnSave": true,
+  },
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
   },
   "typescript.suggest.autoImports": true,
   "terminal.integrated.env.osx": {
@@ -73,7 +78,7 @@
     "javascriptreact",
     "graphql"
   ],
-  "workbench.iconTheme": "symbols",
+  "workbench.iconTheme": "material-icon-theme",
   "editor.minimap.enabled": false,
   "update.mode": "start",
   "terminal.integrated.gpuAcceleration": "off",
@@ -88,5 +93,38 @@
   },
   "window.commandCenter": true,
   "git.openRepositoryInParentFolders": "always",
-  "window.zoomLevel": 1
+  "diffEditor.ignoreTrimWhitespace": false,
+  "material-icon-theme.folders.associations": {
+    "adapters": "contract",
+    "grpc": "pipe",
+    "kube": "kubernetes",
+    "main": "lib",
+    "websockets": "pipe",
+    "implementations": "core",
+    "protos": "pipe",
+    "entities": "class",
+    "kafka": "pipe",
+    "use-cases": "functions",
+    "migrations": "tools",
+    "schemas": "class",
+    "useCases": "functions",
+    "eslint-config": "tools",
+    "typeorm": "database",
+    "_shared": "shared",
+    "mappers": "meta",
+    "fakes": "mock",
+    "modules": "components",
+    "subscribers": "messages",
+    "domain": "class",
+    "protocols": "contract",
+    "infra": "app",
+    "view-models": "views",
+    "presentation": "template",
+    "dtos": "typescript",
+    "http": "container",
+    "providers": "include",
+    "factories": "class",
+    "repositories": "mappings"
+  },
+  "window.zoomLevel": 1,
 }
