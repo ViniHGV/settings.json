@@ -33,10 +33,10 @@
     "editor.defaultFormatter": "Prisma.prisma",
     "editor.formatOnSave": true
   },
-  "[java]": {
-    "editor.defaultFormatter": "mwpb.java-prettier-formatter",
-    "editor.formatOnSave": true,
-  },
+  // "[java]": {
+  //   "editor.defaultFormatter": "mwpb.java-prettier-formatter",
+  //   "editor.formatOnSave": true,
+  // },
   "[csharp]": {
     "editor.defaultFormatter": "ms-dotnettools.csharp"
   },
@@ -57,8 +57,8 @@
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,
-    "source.addMissingImports": true
+    "source.fixAll.eslint": "explicit",
+    "source.addMissingImports": "explicit"
   },
   "editor.semanticHighlighting.enabled": false,
   "breadcrumbs.enabled": true,
@@ -86,7 +86,6 @@
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "workbench.editor.untitled.hint": "hidden",
   "workbench.colorTheme": "Omni",
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
@@ -115,16 +114,20 @@
     "fakes": "mock",
     "modules": "components",
     "subscribers": "messages",
-    "domain": "class",
+    "domain": "core",
     "protocols": "contract",
-    "infra": "app",
+    "infra": "queue",
     "view-models": "views",
     "presentation": "template",
     "dtos": "typescript",
     "http": "container",
     "providers": "include",
     "factories": "class",
-    "repositories": "mappings"
+    "repositories": "mappings",
+    "application": "api",
+    "@interfaces": "typescript"
   },
   "window.zoomLevel": 1,
+  "workbench.editor.empty.hint": "hidden",
+  "git.ignoreRebaseWarning": true,
 }
